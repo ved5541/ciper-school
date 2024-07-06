@@ -1,0 +1,97 @@
+#include <iostream>
+using namespace std;
+
+// int main()
+// {
+//   flaot a,b;
+//   cout<<"Give 2 floating point numbers as input"<<endl;
+//   cin>>a>>b;
+//   cin>>a;
+//   if(a>0.01||b>a){
+//       cout<<"The condition in if statement is correct";
+//   }
+//   else{
+//       cout<<"The condition is false";
+//   }
+
+//     return 0;
+
+
+// int marks;
+// cout<<"student, please enter yopur marks to be calculated the grade: ";
+// cin>>marks;
+// if(marks>90)
+// {
+//     cout<<"A";
+// }
+// if(marks<90 && marks>80)
+// {
+//     cout<<"B";
+// }
+// if(marks<80 && marks>70)
+// {
+//     cout<<"c";
+// }
+// if(marks<70)
+// {
+//     cout<<"Pass";
+// }
+// return 0;
+
+
+// int marks;
+// cout<<"student, please enter yopur marks to be calculated the grade: ";
+// cin>>marks;
+// if(marks>90)
+// {
+//     cout<<"A";
+// }
+// else if(marks>80)
+// {
+//     cout<<"B";
+// }
+// else if(marks>70)
+// {
+//     cout<<"c";
+// }
+// else
+// {
+//     cout<<"Pass";
+// }
+// return 0;
+
+// int a,b,c,d;
+// cout<<"Give three integers as input: a,b,c,"<<endl;
+// cin>>a>>b>>c>>d;
+
+// if(a>b && c>d)
+// {
+//     cout<<"haha";
+// }
+// else if(a>b && c<d)
+// {
+//     cout<<"hehe";
+// }
+// else(a<b && c>d){
+//     cout<<"huhu";
+// }
+
+int a;
+cout<<"enter a integer a";
+cin>>a;
+switch(a)
+{
+case 1:
+    cout<<"The value of a is 1";
+    break;
+case 2:
+    cout<<"The value of a is 2";
+    
+default:
+    cout<<"default will be always printed";
+    break;
+}
+
+
+
+}
