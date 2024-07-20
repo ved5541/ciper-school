@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+void swap(int a , int b){
+    int temp=a;
+    a=b;
+    b=temp;
+    cout<<"The value of a after swaping: "<<a<<endl;
+    cout<<"The value of a after swaping: "<<b<<endl;
+    return;
+}
+
+int main()
+{
+    int a,b;
+    a=3;
+    b=5;
+    cout<<"The actual value of a : "<<a<<endl;
+    cout<<"The actual value of b : "<<b<<endl;
+    swap(a,b);
+   
+
+    return 0;
+}
