@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void swap(int a , int b){
+void swap(int &a , int &b){
     int temp=a;
     a=b;
     b=temp;
@@ -17,6 +17,8 @@ int main()
     cout<<"The actual value of a : "<<a<<endl;
     cout<<"The actual value of b : "<<b<<endl;
     swap(a,b);
+    cout<<"After calling  value of a : "<<a<<endl;
+    cout<<"After calling  value of b : "<<b<<endl;
    
 
     return 0;
