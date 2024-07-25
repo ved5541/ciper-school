@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a;
+    cin>>a;
+    char name[a];
+    int i;
+    for(i=0;i<a;i++){
+        cin>>name[i];
+    }
+    cout<<"The name you have just enetered is "<<endl;
+    for(i=0;i<a;i++)
+    {
+        cout<<name[i];
+    }
+}
