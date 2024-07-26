@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+class Bank_client
+{
+    private:
+    int Credit_number;
+    int cvv;
+    string password;
+    string user_name;
+    
+    public:
+    
+    string name;
+    
+    
+    void Set_Credit_card_number(int Credit_number)
+    {
+        this->Credit_number= Credit_number;
+        cout<<"The address of the calling this function is"<<this<<endl;
+    }
+    int get_CreditCardnumber()
+    {
+        cout<<"The credit card number is "<<Credit_number;
+        return Credit_number;
+    }
+    void set_allthestuffatonce(int Credit_number, int name, int password)
+    {
+        this->Credit_number=Credit_number;
+        this->name = name;
+        this->password;
+    }
+};
+
+int main()
+{
+    Bank_client a,b,c;
+    a.name="rohit";
+    a.Set_Credit_card_number(978456);
+    cout<<"The address of this object is "<<&a<<endl;
+   
+
+    return 0;
+}
