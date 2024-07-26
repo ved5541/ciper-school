@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+class Bank_client
+{
+    private:
+    int Credit_number;
+    int cvv;
+    string password;
+    
+    public:
+    string name;
+    string user_name;
+    void Set_password(string a){
+        password=a;
+    }
+    void get_password(){
+        cout<<"password of this account :"<<password;
+    }
+    
+    void Set_Credit_card_number(int number){
+        Credit_number=number;
+    }
+    void get_CreditCardnumber(){
+        cout<<"The Credit card number is: "<<Credit_number<<endl;
+    }
+    
+};
+
+int main()
+{
+    Bank_client a,b,c;
+    a.name="rohit";
+    cout<<a.name<<endl;
+    a.Set_Credit_card_number(978456);
+    a.get_CreditCardnumber();
+    a.Set_password("ved@@123");
+    a.get_password();
+
+    return 0;
+}
